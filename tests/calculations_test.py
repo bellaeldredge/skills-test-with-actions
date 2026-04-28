@@ -48,23 +48,23 @@ def test_get_nth_fibonacci_zero():
 
 def test_get_nth_fibonacci_one():
     """Test with n=1."""
-    # Arrange
+    #Arrange
     n = 1
 
-    # Act
+     #Act
     result = get_nth_fibonacci(n)
 
-    # Assert
+    #Assert
     assert result == 1
 
 
-# def test_get_nth_fibonacci_ten():
-#     """Test with n=10."""
-#     # Arrange
-#     n = 10
+def test_get_nth_fibonacci_ten():
+ """Test with n=10."""
+ # Arrange
+ n = 10
 
-#     # Act
-#     result = get_nth_fibonacci(n)
+ # Act
+ result = get_nth_fibonacci(n)
 
-#     # Assert
-#     assert result == 89
+ # Assert
+ assert result == 89
